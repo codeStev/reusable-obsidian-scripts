@@ -20,7 +20,7 @@ inputField.setAttr("style", `
     margin-right: 8px;
 `);
 const btn = this.createEl("button", {
-    text: `Neues ${entityType}`
+    text: `${entityType} hinzufügen`
 });
 
 btn.onclick = async () => {
