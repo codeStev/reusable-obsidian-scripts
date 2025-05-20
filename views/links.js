@@ -33,6 +33,7 @@ const {tag} = input
     return;
   }
 
+
   // 4. Display the merged list as links
   dv.list(
     Array.from(mergedPaths).map(p => dv.fileLink(p))
