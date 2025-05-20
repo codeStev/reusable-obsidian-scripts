@@ -37,4 +37,3 @@ const {tag} = input
   dv.list(
     Array.from(mergedPaths).map(p => dv.fileLink(p))
   );
-  dv.paragraph("test")
