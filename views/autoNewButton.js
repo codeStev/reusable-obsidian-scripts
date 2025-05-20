@@ -10,7 +10,7 @@ if (!mb) {
 }
 
 this.createEl("label", { text: "Filename: " });
-const inputField = await this.createEl("input", { type: "text", placeholder: `New ${entityType} title...` });
+const inputField = await this.createEl("input", { type: "text", placeholder: `${entityType} - Titel` });
 inputField.setAttr("style", `
     padding: 4px 8px;
     background-color: white;
